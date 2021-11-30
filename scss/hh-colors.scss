@@ -1,0 +1,46 @@
+$white: #fff;
+$gray-300: #EDEDED;
+$black: #000;
+
+/*Dataport Theme Colors*/
+$red: #E10019;
+$dunkelblue: #003064;
+$dunkelblau90: #194472;
+$dunkelblau75: #40648B;
+$dunkelblau50: #7F97B0;
+$dunkelblau25: #BFCBD8; // Linie
+
+$mittelblau: #005FA9;
+$mittelblau90: #196CB1;
+$mittelblau50: #7FADD4;
+$mittelblau25: #BFD6E9;
+
+$highlightblau: #2B88D8;
+
+$green: #107C10;
+
+$grau25: #BFBFBF;
+$disabledGray: #B3B3B3;
+$disabledPlaceholder:#767676; // TODO: Designer fragen
+$grauHintergrund: #E3E3E3;
+$grauHintergrundHell: #F0F0F0;
+$gray-footer-bg: $grauHintergrundHell;
+$alertColor: #333333;
+$primaryHover: #B40014;
+
+$primary: $red;
+$standard: $grauHintergrund;
+$secondary: $dunkelblue;
+
+$success: $green;
+$danger: $red;
+
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "standard":   $standard
+  ),
+  $theme-colors
+);

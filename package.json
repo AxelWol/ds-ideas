@@ -1,0 +1,16 @@
+{
+    "name": "dsHH",
+    "version": "1.0.0",
+    "author": "axel.wolters@sk.hamburg.de",
+    "description": "Font demo with golden rules for HH design system",
+    "license": "ISC",
+    "scripts": {
+        "start": "node server/app.js",
+        "compile:sass": "node-sass scss/style.scss public/css/style.css"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "node-sass": "^6.0.1",
+        "notosans-fontface": "^1.2.4"
+    }
+}
