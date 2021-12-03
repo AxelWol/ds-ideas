@@ -14,15 +14,15 @@ $notosans-fontface-path: "../fonts/Noto/";
 	padding: 1.125rem;      //18px
 	color: $black;
 }
-.d1st-hh .title {
-	font-size: 	2.625rem;     //42px
-	line-height: 4.1875rem;   //67px
-	margin-bottom: 1.8125rem; //29px
-	color: $dunkelblue;
-}
 .d1st-hh h1 {
 	font-size: 2.0625rem;     //33px
 	line-height: 3.375rem;    //54px
+	margin-bottom: 1.8125rem; //29px
+	color: $dunkelblue;
+}
+.d1st-hh .title {
+	font-size: 	2.625rem;     //42px
+	line-height: 4.1875rem;   //67px
 	margin-bottom: 1.8125rem; //29px
 	color: $dunkelblue;
 }
